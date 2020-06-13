@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Malaysia Coronavirus tracker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="https://cdn.anychart.com/releases/8.7.1/js/anychart-base.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="app.js"></script>
+  </head>
+  <body>
+    <nav class="header">
+      <header><h3>Coronavirus Tracker in Malaysia</h3></header>
+      <div id="navbar">
+        <a class="nav-link" href="#malayysia_Update">COVID-19 Malaysia Update</a>
+        <a class="nav-link" href="#Recover_Fatal">Recovery and Fatality Rate</a>
+      </div>
+    </nav>
+      <h2 class="Header"><u>The Latest COVID-19 Malaysia Update (<span id="date"></span>)</u></h2>
+      <div class="country" id="malayysia_Update" >
+        <h3>Country</h3>
+        <h1 id="country">Malaysia</h1>
+      </div>
+      <div class="data-section">
+        <div class="border1">
+          <h3>Cases</h3>
+          <h1 id="cases"></h1>
+        </div>
+        <div class="border2">
+          <h3>Active</h3>
+          <h1 id="active"></h1>
+        </div>
+        <div class="border3">
+          <h3>Recovered</h3>
+          <h1 id="recovered"></h1>
+        </div>
+        <div class="border4">
+          <h3>Death</h3>
+          <h1 id="death"></h1>
+        </div>
+      </div>
+        <h2 class="Rate_Recover_Fatal"><u>Rate of Recovery and Fatality</u></h2>
+        <div id="Recover_Fatal">
+          <div id="container"></div>
+          <div id="container2"></div>
+        </div>
+        <footer class="footer">Developed by Song Elaine</footer>
+  </body>
+</html>

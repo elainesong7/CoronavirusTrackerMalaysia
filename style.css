@@ -1,0 +1,152 @@
+html,body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f6f6f6;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  position:fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  top:0;
+  left:0;
+  width:100%;
+  padding: 10px;
+  background-color: rgba(0, 56,83,153);
+  color: white;
+}
+#navbar{
+ margin-left: 600px;
+ border-color: rgba(0,204,204,204);
+ padding-top: 20px;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: white;
+  padding: 12px;
+  position: relative;
+  margin: 20px 0;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: .5s;
+  z-index: 1;
+}
+
+#navbar a:hover {
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388;
+}
+
+.country{
+  margin-top: 20px;
+  margin-left: 450px;
+  margin-right: 450px;
+  border: 1px solid  #009ABB;
+  padding: 50px;
+  text-align: center;
+  color:#009ABB;
+}
+
+.data-section{
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto;
+  align-content: center;
+  text-align: center;
+  color:white;
+}
+
+.border1{
+    background-color:  #db3f4d;
+    border: 1px solid white;
+}
+.border2{
+    background-color:#f8c120;
+    border: 1px solid white;
+}
+.border3{
+    background-color:#36a592;
+    border: 1px solid white;
+}
+.border4{
+    background-color: black;
+    border: 1px solid white;
+}
+
+.Header{
+  padding-top:80px;
+  text-align:center;
+  color:#60727b;
+}
+
+.Rate_Recover_Fatal, .footer{
+  padding:20px;
+  text-align:center;
+  color:#60727b;
+}
+
+#Recover_Fatal{
+  width: 100%;
+  height: 50%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  grid-template-columns: auto auto ;
+  grid-template-rows: auto;
+  margin-top: 20px;
+}
+
+#container{
+  width: 50%;
+  height: 100%;
+}
+
+#container2{
+  width: 50%;
+  height: 100%;
+}
+
+@media (max-width: 700px) {
+
+
+  .header{
+    display: grid;
+    grid-template-columns: auto ;
+    grid-template-rows: auto auto;
+    padding-left: 10%;
+  }
+
+  #navbar{
+    display: grid;
+    grid-template-columns: auto ;
+    grid-template-rows: auto auto;
+    margin: 0;
+    padding-left: 10%;
+  }
+
+  #navbar a {
+    margin: 0;
+  }
+
+  .Header{
+    padding-top:180px;
+    font-size: 18px;
+  }
+
+  .country{
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 40px;
+  }
+
+}
