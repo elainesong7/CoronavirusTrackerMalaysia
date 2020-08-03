@@ -1,7 +1,7 @@
 # CoronavirusTrackerMalaysia
  
 
-This web application was built using the API from [APIFY](https://apify.com/). The app was created to show the latest COVID-19 Malaysia and also the Rate of Recovery and Fatality. 
+This web application was built using the API from [APIFY](https://apify.com/). The app was created to show the latest COVID-19 cases in Malaysia and also the Rate of Recovery and Fatality. 
 
 [View Here](https://optimistic-poitras-26492e.netlify.app/)
 
